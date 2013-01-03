@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="24" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="floor" tilewidth="64" tileheight="64">
+  <image source="Floor.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="wall" tilewidth="64" tileheight="64">
+  <image source="wall.png" width="64" height="64"/>
+ </tileset>
+ <layer name="walkable" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqrqowcuFgJB
+  </data>
+ </layer>
+ <layer name="unwalkable" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKwDAIQ6X3P/T+i9pntIzBAn5YTLA1dpnZuhwEtG7nvKF/OvN4EUfRJ7mnn81kQt8D8UXHP535V/yjQNGv1GeznNjXin9ov7T/qL6a0/0iUPVpftqJiE/xv3+ef93/ns7k+6v66j26/xiJB7VSAXk=
+  </data>
+ </layer>
+</map>
